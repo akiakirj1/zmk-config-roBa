@@ -59,8 +59,9 @@
             bindings = <&mo>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             };
+
          scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -101,6 +102,8 @@
 &trans         &kp F4  &kp F5  &kp F6   &kp SQT            &trans      &trans      &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION
 &kp RG(RS(S))  &trans  &trans  &kp TAB  &kp TAB            &trans      &kp DELETE  &trans                                                               &kp RC(RA(DELETE))
             >;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+
         };
 
         ARROW {
