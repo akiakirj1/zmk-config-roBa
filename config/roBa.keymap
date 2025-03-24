@@ -103,7 +103,7 @@
 &trans         &kp F4  &kp F5  &kp F6   &kp SQT            &trans      &trans      &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION
 &kp RG(RS(S))  &trans  &trans  &kp TAB  &kp TAB            &trans      &kp DELETE  &trans                                                               &kp RC(RA(DELETE))
             >;
-            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
+            sensor-bindings = <&scroll_up_down>;
 
         };
 
