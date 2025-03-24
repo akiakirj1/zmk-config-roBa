@@ -92,7 +92,7 @@
 &kp ESC        &kp F7  &kp F8  &kp F9   &kp F10                                    &kp GRAVE      &kp TILDE       &kp UP_ARROW    &kp NON_US_BACKSLASH  &kp RC(RA(END))
 &kp TAB        &none   &kp F2  &kp F3   &kp DOUBLE_QUOTES  &none       &trans      &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp PERCENT
 &trans         &kp F4  &kp F5  &kp F6   &kp SQT            &trans      &trans      &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION
-&kp RG(RS(S))  &trans  &trans  &kp TAB  &kp TAB            &trans      &kp ESCAPE  &trans                                                               &kp RC(RA(DELETE))
+&kp RG(RS(S))  &trans  &trans  &kp TAB  &kp TAB            &trans      &kp DELETE  &trans                                                               &kp RC(RA(DELETE))
             >;
         };
 
