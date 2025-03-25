@@ -7,7 +7,7 @@
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 120
+#define ZMK_MOUSE_POINTING_SCRL_VAL 120
 
 &mt {
     flavor = "tap-preferred";
@@ -64,12 +64,12 @@
             };
 
         mouse_scrl: mouse_wheel_scrl {
-        compatible = "zmk,behavior-sensor-rotate-var";
-        #sensor-binding-cells = <2>;
-        bindings = <&msc>, <&msc>;
-        tap-ms = <10>;
-        };
-    };
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+            tap-ms = <10>;
+            };
+         };
 
     keymap {
         compatible = "zmk,keymap";
