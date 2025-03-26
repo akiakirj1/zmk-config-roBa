@@ -27,3 +27,9 @@ include:
    shield: settings_reset
 # - board: seeeduino_xiao_ble
 #   shield: hummingbird rgbled_adapter
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
