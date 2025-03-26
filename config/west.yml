@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/kumamuk-git
     - name: caksoylar  # <-- new entry
       url-base: https://github.com/caksoylar
-    - name: akiakirj1
-      url-base: https://github.com/akiakirj1
    
 
   projects:
@@ -16,7 +14,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: akiakirj1
+      remote: kumamuk-git
       revision: main
     - name: zmk-rgbled-widget  # <-- new entry
       remote: caksoylar
