@@ -7,7 +7,7 @@
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 140
 
 &mt {
     flavor = "tap-preferred";
@@ -67,7 +67,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
             // 追加: スクロールのタップ時間を設定 (20ms)
-            tap-ms = <20>;
+            tap-ms = <30>;
             };
        };
 
@@ -81,7 +81,7 @@
 &mt LEFT_SHIFT Z  &mt RIGHT_ALT X  &kp C     &kp V                   &kp B        &kp COLON                   &kp SEMICOLON         &kp N       &kp M  &kp COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT MINUS
 &kp LEFT_WIN      &mkp MB2         &mkp MB1  &lt_to_layer_0 2 LANG1  &lt 1 SPACE  &lt_to_layer_0 3 LANG2      &lt_to_layer_0 2 ESC  &lt 1 BSPC                                          &mkp MB4
             >;
-            sensor-bindings = <&scroll_up_down>;
+             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
        };
 
         FUNCTION {
@@ -102,7 +102,7 @@
 &trans         &kp F4  &kp F5  &kp F6   &kp SQT            &trans      &trans      &kp PAGE_DOWN  &kp HOME        &kp END         &trans                &kp QUESTION
 &kp RG(RS(S))  &trans  &trans  &kp TAB  &kp TAB            &trans      &kp DELETE  &trans                                                               &kp RC(RA(DELETE))
             >;
-             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
