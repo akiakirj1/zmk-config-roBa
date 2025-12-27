@@ -72,7 +72,7 @@
 &trans            &trans             &trans            &kp TAB           &kp TAB     &trans      &kp DELETE      &trans                                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         NUM {
