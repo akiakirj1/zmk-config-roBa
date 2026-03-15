@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/kumamuk-git
     - name: akiakirj1
       url-base: https://github.com/akiakirj1
-    - name: caksoylar  # <-- new entry
-      url-base: https://github.com/caksoylar
+#    - name: caksoylar  # <-- new entry
+#      url-base: https://github.com/caksoylar
    
 
   projects:
@@ -22,7 +22,7 @@ manifest:
       remote: akiakirj1
       revision: main
     - name: zmk-rgbled-widget  # <-- new entry
-      remote: caksoylar
+      remote: akiakirj1
       revision: main
 
   self:
