@@ -20,7 +20,7 @@ manifest:
 #      revision: main
     - name: zmk-pmw3610-driver
       remote: akiakirj1
-      revision: v0.3-branch
+      revision: main
     - name: zmk-rgbled-widget  # <-- new entry
       remote: akiakirj1
       revision: v0.3-branch
