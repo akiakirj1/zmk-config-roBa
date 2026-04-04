@@ -55,12 +55,12 @@
 
         mb1 {
             bindings = <&mkp MB1>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         mb4 {
